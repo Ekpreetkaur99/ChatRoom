@@ -89,3 +89,12 @@ body{
     color:#eee;
     font-weight: 600;
 }
+.chat-screen .header button{
+    padding: 5px 10px;
+    border:1px solid #eee;
+    background:transparent;
+    color:#eee;
+    font-size: 15px;
+    cursor:pointer;
+    outline:none;
+}
