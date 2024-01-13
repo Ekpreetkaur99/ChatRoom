@@ -5,22 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat Room</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    
 </head>
 <body>
     <div class="app">
-        <div class="screen join-screen">
+        <div class="screen join-screen active">
             <div class="form">
-                <h2>Join ChatRoom</h2>
+                <h2>Join LiveChatBox</h2>
                 <div class="form-input">
                     <label>Username:</label>
                     <input type="text" id="username">
                 </div>
                 <div class="form-input">
-                    <button id="Join">Join</button>
+                    <button id="join-user">Join</button>
                 </div>
             </div>
         </div>
-        <div class="screen chat-screen active">
+        <div class="screen chat-screen ">
             <div class="header">
                 <div class="logo">ChatRoom</div>
                 <button id="exit-chat">Exit</button>
@@ -40,7 +41,7 @@
     </div>
 
 
-    <script type="text/javascript" src="socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
     <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
